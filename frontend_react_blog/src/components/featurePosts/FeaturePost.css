@@ -1,0 +1,18 @@
+.button-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.left-button {
+  left: -1vw;
+}
+
+.right-button {
+  right: -1vw;
+}
+
+.button-container:hover {
+  padding: 4px;
+}
